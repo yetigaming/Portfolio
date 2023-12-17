@@ -18,8 +18,8 @@
     display: block;
     width: 0;
     height: 2px;
-    background-color: #000;
-    transition: width 0.3s ease-in-out;
+    background-color: orange;
+    transition: width 0.15s ease-out;
 }
 
 .navbar-nav .nav-link:hover::after {
