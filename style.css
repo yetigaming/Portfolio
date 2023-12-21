@@ -83,7 +83,7 @@ p{
 
 .CJ-container, .MA-container  {
     display: flex;
-    padding: 20px;
+    padding: 30px;
 }
 
 .CJ-beschrijving, .MA-beschrijving {
@@ -95,6 +95,10 @@ p{
     text-align: center; 
 }
 
-.CJ-pic, .MA-pic {
+.CJ-pic {
     max-width: 75%; 
+}
+
+.MA-pic {
+    max-width: 50%;
 }
