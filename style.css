@@ -88,7 +88,7 @@ p{
     padding-right: 25px;
 }
 
-.titel-info {
+.titel-info, .Product-beschrijving-titel {
     text-decoration: underline;
 }
 
@@ -96,7 +96,7 @@ p{
     padding: 50px;
 }
 
-.CJ-container, .MA-container, .Key-container  {
+.CJ-container, .MA-container, .Key-container, .Product-container  {
     display: flex;
     padding: 30px;
     outline: auto;
@@ -110,6 +110,10 @@ p{
 .CJ-pic-container, .MA-pic-container, .Key-pic-container {
     flex: 1;
     text-align: center; 
+}
+
+.Prijs {
+    margin-bottom: 20px;
 }
 
 .CJ-pic {
@@ -130,4 +134,8 @@ p{
 
 .Housing-pic, .Keycaps-pic {
     max-width: 70%;
+}
+
+.Product-pic {
+    max-width: 60%;
 }
