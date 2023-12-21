@@ -70,3 +70,21 @@ p{
     padding-left: 25px;
     padding-right: 25px;
 }
+
+.CJ-container, .MA-container  {
+    display: flex;
+    padding: 20px;
+}
+
+.CJ-beschrijving, .MA-beschrijving {
+    flex: 1;
+}
+
+.CJ-pic-container, .MA-pic-container {
+    flex: 1;
+    text-align: center; 
+}
+
+.CJ-pic, .MA-pic {
+    max-width: 75%; 
+}
