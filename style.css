@@ -71,16 +71,20 @@ p{
     padding-right: 25px;
 }
 
-.CJ-container, .MA-container  {
+.titel-info {
+    text-decoration: underline;
+}
+
+.CJ-container, .MA-container, .Key-container  {
     display: flex;
     padding: 30px;
 }
 
-.CJ-beschrijving, .MA-beschrijving {
+.CJ-beschrijving, .MA-beschrijving, .Key-beschrijving {
     flex: 1;
 }
 
-.CJ-pic-container, .MA-pic-container {
+.CJ-pic-container, .MA-pic-container, .Key-pic-container {
     flex: 1;
     text-align: center; 
 }
@@ -91,4 +95,12 @@ p{
 
 .MA-pic {
     max-width: 50%;
+}
+
+.Key-pic {
+    max-width: 40%;
+}
+
+.Switch-pic {
+    max-width: 90%;
 }
