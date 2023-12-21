@@ -51,6 +51,13 @@
     padding: 20px;
 }
 
+hr {
+    border: none;
+    height: 5px;
+    color: black;  
+    background-color: black;  
+}
+
 nav {
     flex: 1;
     text-align: right;
@@ -85,12 +92,18 @@ p{
     text-decoration: underline;
 }
 
+.containers-info {
+    padding: 50px;
+}
+
 .CJ-container, .MA-container, .Key-container  {
     display: flex;
     padding: 30px;
+    outline: auto;
+    border: 4px solid black; 
 }
 
-.CJ-beschrijving, .MA-beschrijving, .Key-beschrijving {
+.CJ-beschrijving, .MA-beschrijving, .Key-beschrijving, .Housing-beschrijving, .Keycap-beschrijving {
     flex: 1;
 }
 
@@ -113,4 +126,8 @@ p{
 
 .Switch-pic {
     max-width: 90%;
+}
+
+.Housing-pic, .Keycaps-pic {
+    max-width: 70%;
 }
