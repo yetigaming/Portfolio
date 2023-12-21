@@ -27,6 +27,16 @@
 }
 /* End Custom Navbar Hover Animations */
 
+.block {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.block img {
+    max-width: 100%;
+    height: auto;
+}
+
 .iconLogo{
     width: 80px;
 }
